@@ -1,5 +1,8 @@
 #!/bin/sh
 
-mv .tmux.conf ..
-mv .vimrc
-echo "successful类"
+cp .tmux.conf ..
+cp .vimrc .
+cd ..
+mv tmux-vim_conf .vim
+
+echo "successfully!!!"
