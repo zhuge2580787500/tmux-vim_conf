@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cp .tmux.conf ..
-cp .vimrc .
+cp .vimrc ..
 cd ..
 mv tmux-vim_conf .vim
 
